@@ -1,0 +1,5 @@
+@media(max-width:768px){
+    input.btn.btn-primary{
+        width: 100%;
+    }
+}
