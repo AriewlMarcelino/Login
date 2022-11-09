@@ -57,6 +57,7 @@ input.btn.btn-primary{
 
 .img.img-fluid{
     height: 100%;
+    width: auto;
     align-content: center;
 
 }

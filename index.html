@@ -17,27 +17,26 @@
         crossorigin="anonymous"></script>
     <title>Login</title>
 </head>
-
 <body>
     <header class="container" id="header">
         <div class="container col-11 col-md-9" id="form-container">
             <div class="row align-items-center gx-5">
                 <div class="col-md-6 order-md-2">
                     <h2>Faça o login para continuar</h2>
-                    <form>
+                    <form class="needs-validation" novalidate>
                         <!-- Label email -->
                         <div class="form-floating mb-3">
                             <input type="email" id="email" name="email" placeholder="Insira o seu email"
-                                class="form-control">
+                                class="form-control" required>
                             <label for="email" class="form-label">Digite o seu E-mail:</label>
                         </div>
                         <!-- Label password -->
                         <div class="form-floating mb-3">
                             <input type="password" id="password" name="password" placeholder="Insira o sua senha"
-                                class="form-control">
+                                class="form-control" required>
                             <label for="password" class="form-label">Digite o sua senha:</label>
                         </div>
-                        <input type="text" class="btn btn-primary" value="Entrar">
+                        <input type="submit" class="btn btn-primary" value="Entrar">
                     </form>
                 </div>
                 <!-- img colunm -->
@@ -52,6 +51,8 @@
             </div>
         </div>
     </header>
+
+    <script src="/assets/js/script.js"></script>
 </body>
 
 </html>
